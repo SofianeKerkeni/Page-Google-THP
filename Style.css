@@ -1,0 +1,166 @@
+a
+{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.container-footer a {
+    margin: 16px;
+    color: rgba(0,0,0,0.4);
+}
+a:hover{
+    text-decoration: underline;
+}
+body,html
+{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.container-Header{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.container-body {
+    display: flex;
+    height: 60.2%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+
+}
+.container-footer
+{
+    display: flex;
+    
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.04);
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Text-Header1 {
+    padding-left: 13px;
+    padding: 13px;
+    padding-top: 10px;
+    margin-top: 0.5%;
+}
+.Text-Header2 {
+    padding-right: 13px;
+    padding-top: 10px;
+    margin-top: 0.5%;
+}
+
+.buttonConnexion {
+    margin-top: 8%;
+    margin-right: 15px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    border: transparent;
+    width: 120px;
+    
+}
+.MenuScroll {
+    padding: 5px;
+    margin-top: 0.4%;
+}
+.buttonConnexion:hover
+{
+    opacity: 90%;
+}
+.Button1
+{
+    margin-top: 17px;
+}
+.RechercheButton 
+{
+    margin-right: 0.3%;
+    padding: 9.5px;
+    border: 1px solid #f8f9fa;
+}
+.ChanceButton
+{
+    padding: 9.5px;
+    border: 1px solid #f8f9fa;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.RechercheButton:hover
+{
+    border: 1px solid #dadce0;
+}
+.ChanceButton:hover
+{
+    border: 1px solid #dadce0;
+}
+.Search {
+    justify-content: center;
+    display: flex;
+}
+.SearchBarre1
+{
+    background: url(Image/loupe.webp) no-repeat left 4px top 7px;
+    background-size: 25px;
+    position: relative;
+    border-radius: 24px;
+    height: 39px;
+    width: 600px;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    padding-left: 35px;
+    padding-right: 10px;
+    margin: auto;
+}
+.SearchBarre1:hover
+{
+    box-shadow: 0px 1px 3px 1px rgba(1,0,0,0.5);
+}
+.SearchBarre1:focus
+{
+    outline: none;
+    box-shadow: 0px 1px 3px 1px rgba(1,0,0,0.5);
+}
+.Pays {
+    color: rgba(0,0,0,0.4);
+    padding-left: 17px;
+    height: 50px;
+
+}
+.ContainerNeutreEnCorbone
+{
+    border-top: 1px solid #dadce0;
+    padding-left: 25px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #0000008A;
+}
+.papier
+{
+    width: 12px;
+    margin: 0px;
+}
+.NCarbone {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    margin: 0px;
+    padding: auto;
+}
